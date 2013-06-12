@@ -1,0 +1,11 @@
+<div id="menuArea">
+    <h1>Charts</h1>
+
+    <ul>
+        {{#each controller}}
+            <li>{{#linkTo charts.chart this.chart}}{{name}}{{/linkTo}}</li>
+        {{/each}}
+    </ul>
+</div>
+
+{{outlet}}

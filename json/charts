@@ -1,0 +1,15 @@
+{ "charts": [
+        {   "id": "usedHeap",
+            "name": "Memory - Heap - Used",
+            "chart_id": "usedHeap"
+        },
+        {   "id": "gc",
+            "name": "GC - Time Spent in Garbage Collection",
+            "chart_id": "gc"
+        },
+        {   "id": "loadAverage",
+            "name": "CPU - System Load Average",
+            "chart_id": "loadAverage"
+        }
+    ]
+}
